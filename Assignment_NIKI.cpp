@@ -8,7 +8,7 @@ n=5 : 11111, 11110, 11101, 11011, 10111, 01111, 11010, 10110, 01101, 01011, 0111
 n=6 : 111111, 111110, 111101, 111011, 110111, 101111, 011111, 111010, 110110, 101110, 011110, 110101, 101101, 010111, 011011, 101011 011101, 
 	  101010, 010101, 011010, 010110      //count = 21
 	  
-	3,5,8,21...... gives the pattern of Finonacci series where,
+	3,5,8,13,21...... gives the pattern of Finonacci series where,
 	Therefore, Bit strings of n bits which doesn't have any contiguous zero can be calculated as:
 	count(n) = Fib(n+3) where Fibonacci series is: 0, 1, 1, 2, 3, 5, 8, 13, 21........
 		where, Fib(m) = Fib(m-1) + Fib(m-2)
